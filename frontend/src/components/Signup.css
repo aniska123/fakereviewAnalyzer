@@ -1,0 +1,42 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Reuse animations and styles from Login.css */
+  .signup-box h1,
+  .signup-box h2,
+  .signup-box input,
+  .signup-box .animate-button,
+  .signup-box .message,
+  .signup-box p,
+  .signup-box a {
+    margin: inherit;
+    padding: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: inherit;
+    border-radius: inherit;
+    width: inherit;
+  }
+  
+  .signup-box .animate-button:hover {
+    transform: scale(1.05);
+    background: #0056b3;
+  }
+  
+  .signup-box a:hover {
+    text-decoration: underline;
+  }
